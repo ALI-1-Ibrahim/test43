@@ -720,15 +720,15 @@ for (const step of steps) {
 }
 instructions.innerHTML = `<p><strong>Trip duration: ${Math.floor(data.duration / 60)} min 🚶🏾 </strong></p><ol>${tripInstructions}</ol>`;
 // }
-map.setLayoutProperty('route', 'visibility', 'visible');
-loc._geolocateButton.click();
 
-document.getElementsByClassName('XBTN')[0].style.display='block';
 console.log("fljhfjhjlh");
 
 });
 }, 2000)
+map.setLayoutProperty('route', 'visibility', 'visible');
+loc._geolocateButton.click();
 
+document.getElementsByClassName('XBTN')[0].style.display='block';
 }
 
 
