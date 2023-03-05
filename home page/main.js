@@ -756,7 +756,7 @@ catch(err){
 
 function StopGps() {
   clearInterval(myInterval);
-  loc._geolocateButton.click();
+  loc.trigger();
   // map.removeLayer('route');
   map.setLayoutProperty('route', 'visibility', 'none');
   // map.removeSource('geojson');
