@@ -643,3 +643,7 @@ color: var(--IconColor);
 
 .mapboxgl-ctrl-bottom-left{
 left: -100px;}
+
+.mapboxgl-ctrl-top-left {
+  top: 70px;
+}
