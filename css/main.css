@@ -641,5 +641,5 @@ color: var(--IconColor);
 }
 
 
-/* .mapboxgl-ctrl-bottom-left{
-left: -100px;} */
+.mapboxgl-ctrl-bottom-left{
+left: -100px;}
