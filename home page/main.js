@@ -23,7 +23,7 @@ var locate = new mapboxgl.GeolocateControl({positionOptions: {enableHighAccuracy
   showUserHeading: true
   })
   map.addControl(locate, 'bottom-right');
-  // map.addControl(new mapboxgl.NavigationControl());
+  map.addControl(new mapboxgl.NavigationControl(),'top-left');
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   const geocoder = new MapboxGeocoder({
